@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-
+import axios from 'axios';
 import { motion } from "framer-motion"
 import { useState } from "react"
 import NavMenu from "@/components/nav-menu"
@@ -29,25 +29,35 @@ export default function Contact() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-
-    toast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
-    })
-
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    })
-    setIsSubmitting(false)
-  }
+    e.preventDefault();
+    setIsSubmitting(true);
+  
+    try {
+      const response = await axios.post('https://formspree.io/f/xeogejqg', formData);
+      if (response.status === 200) {
+        toast({
+          title: "Message sent!",
+          description: "Thank you for your message. I'll get back to you soon.",
+        });
+        setFormData({ name: "", email: "", subject: "", message: "" });
+      } else {
+        toast({
+          title: "Error sending message",
+          description: "Something went wrong. Please try again later.",
+          variant: "destructive",
+        });
+      }
+    } catch (error: any) {
+      console.error("Form submission error:", error);
+      toast({
+        title: "Error sending message",
+        description: error.message || "An unexpected error occurred.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   const container = {
     hidden: { opacity: 0 },
