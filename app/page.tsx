@@ -30,7 +30,7 @@ export default function Home() {
         <div className="grid gap-8 md:gap-12 md:grid-cols-2 items-center">
           <motion.div variants={item}>
             <Image
-              src="/placeholder.svg?height=400&width=400"
+              src="/profile-pic.jpg?height=400&width=400"
               alt="Student Profile"
               width={400}
               height={400}
@@ -40,7 +40,7 @@ export default function Home() {
 
           <div className="space-y-4 md:space-y-6 text-center md:text-left">
             <motion.h1 variants={item} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              Hi, I'm <span className="text-primary">John Doe</span>
+              Hi, I'm <span className="text-primary">Likhith reddy</span>
             </motion.h1>
 
             <motion.h2 variants={item} className="text-xl sm:text-2xl md:text-3xl font-medium text-muted-foreground">
@@ -48,7 +48,7 @@ export default function Home() {
             </motion.h2>
 
             <motion.p variants={item} className="text-base md:text-lg text-muted-foreground">
-              I'm a passionate computer science student at University of Technology, specializing in web development and
+              I'm a passionate computer science student at Amrita University , Passionate in Cyber security and
               artificial intelligence. I love building innovative solutions that solve real-world problems.
             </motion.p>
 
@@ -68,14 +68,17 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2">
             <div className="space-y-4">
               <p className="text-sm sm:text-base">
-                I'm currently pursuing my Bachelor's degree in Computer Science, with a focus on web development and
-                artificial intelligence. My journey in technology began when I was 15, building simple websites and
+                I'm currently pursuing my Bachelor's degree in Computer Science, with a focus on Cyber Security and
+                artificial intelligence. My journey in technology began when I was 19, building simple websites and
                 games.
               </p>
               <p className="text-sm sm:text-base">
                 Outside of academics, I enjoy participating in hackathons, contributing to open-source projects, and
                 mentoring junior developers. I believe in the power of technology to create positive change in the
                 world.
+              </p>
+              <p className="text-sm sm:text-base">
+              I have a decent knack for computers and games. 
               </p>
             </div>
             <div className="space-y-4">
@@ -87,6 +90,8 @@ export default function Home() {
                 <div className="bg-muted p-2 md:p-3 rounded-md text-xs sm:text-sm">Python</div>
                 <div className="bg-muted p-2 md:p-3 rounded-md text-xs sm:text-sm">UI/UX Design</div>
                 <div className="bg-muted p-2 md:p-3 rounded-md text-xs sm:text-sm">Machine Learning</div>
+                <div className="bg-muted p-2 md:p-3 rounded-md text-xs sm:text-sm">Django</div>
+                <div className="bg-muted p-2 md:p-3 rounded-md text-xs sm:text-sm">C / C++ / Java</div>
               </div>
             </div>
           </div>

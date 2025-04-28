@@ -1,30 +1,47 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { useMediaQuery } from "@/hooks/use-media-query"
+import { motion } from "framer-motion";
+import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 export default function SocialLinks() {
-  const isMobile = useMediaQuery("(max-width: 768px)")
+  const isMobile = useMediaQuery("(max-width: 768px)");
 
   const socialLinks = [
-    { name: "GitHub", icon: <Github className="h-4 w-4 md:h-5 md:w-5" />, href: "https://github.com/username" },
+    {
+      name: "GitHub",
+      icon: <Github className="h-4 w-4 md:h-5 md:w-5" />,
+      href: "https://github.com/LikhithReddy-S",
+    },
     {
       name: "LinkedIn",
       icon: <Linkedin className="h-4 w-4 md:h-5 md:w-5" />,
-      href: "https://linkedin.com/in/username",
+      href: "https://www.linkedin.com/in/likhithreddys/",
     },
-    { name: "Twitter", icon: <Twitter className="h-4 w-4 md:h-5 md:w-5" />, href: "https://twitter.com/username" },
+    {
+      name: "Twitter",
+      icon: <Twitter className="h-4 w-4 md:h-5 md:w-5" />,
+      href: "https://x.com/likhithreddy22",
+    },
     {
       name: "Instagram",
       icon: <Instagram className="h-4 w-4 md:h-5 md:w-5" />,
-      href: "https://instagram.com/username",
+      href: "https://www.instagram.com/likhith__22/",
     },
-    { name: "Email", icon: <Mail className="h-4 w-4 md:h-5 md:w-5" />, href: "mailto:email@example.com" },
-  ]
+    {
+      name: "Email",
+      icon: <Mail className="h-4 w-4 md:h-5 md:w-5" />,
+      href: "mailto:slikhithreddy22@gmail.com",
+    },
+  ];
 
   return (
     <motion.div
@@ -49,7 +66,11 @@ export default function SocialLinks() {
                   asChild
                   className="rounded-full h-8 w-8 md:h-10 md:w-10"
                 >
-                  <Link href={link.href} target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {link.icon}
                   </Link>
                 </Button>
@@ -62,5 +83,5 @@ export default function SocialLinks() {
         ))}
       </TooltipProvider>
     </motion.div>
-  )
+  );
 }

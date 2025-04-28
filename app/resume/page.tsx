@@ -12,57 +12,50 @@ export default function Resume() {
     {
       degree: "Bachelor of Science in Computer Science",
       institution: "University of Technology",
-      period: "2020 - Present",
+      period: "2023 - Present",
       description:
-        "Focusing on software engineering, artificial intelligence, and web development. Current GPA: 3.8/4.0",
+        "Focusing on software engineering, artificial intelligence, and Quantum Computing. Current GPA: 3.0/4.0",
     },
     {
-      degree: "High School Diploma",
-      institution: "Science Academy",
-      period: "2016 - 2020",
-      description: "Graduated with honors. Participated in national programming competitions.",
+      degree: "High School",
+      institution: "Narayana",
+      period: "2016 - 2023",
+      description: "Graduated with honors. Participated in national programming competitions. Jee Main - 97.49%",
     },
   ]
 
   const experience = [
     {
-      position: "Web Development Intern",
-      company: "Tech Solutions Inc.",
-      period: "Summer 2022",
-      description:
-        "Developed and maintained client websites using React and Node.js. Collaborated with the design team to implement responsive UI components.",
-    },
-    {
-      position: "Research Assistant",
-      company: "University AI Lab",
-      period: "2021 - Present",
-      description:
-        "Assisting in research on natural language processing. Implementing machine learning models and analyzing results.",
-    },
-    {
       position: "Freelance Web Developer",
       company: "Self-employed",
-      period: "2019 - Present",
+      period: "2025 - Present",
       description:
         "Building custom websites and web applications for small businesses and startups. Managing client relationships and project timelines.",
+    },
+    {
+      position: "Anokha 2024 Co-Lead",
+      company: "College-Event",
+      period: "2024 Aug-Sep",
+      description:
+        "Managed WhatsApp groups to coordinate with volunteers, ensuring effective communication,scheduling meetings, and monitoring attendance Led the event Quest Nexus,managing volunteers to locate and photograph 95 campus locations for clue placement. Designed QR codes for each location, guiding players to the next clue and awarding PC parts as prizes to assemble a complete PC at the end of the event.",
     },
   ]
 
   const certifications = [
     {
       name: "Full Stack Web Development",
-      issuer: "Udemy",
-      date: "2021",
+      issuer: "Coursera",
+      date: "2025",
     },
     {
       name: "Machine Learning Specialization",
       issuer: "Coursera",
-      date: "2022",
+      date: "2025",
     },
     {
-      name: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      date: "2023",
+      name: "Google Cybersecurity Certified",
+      issuer: "Coursera - Google",
+      date: "2024",
     },
   ]
 
@@ -97,7 +90,7 @@ export default function Resume() {
             </p>
           </div>
           <Button asChild size="sm" className="sm:h-10 text-xs sm:text-sm">
-            <Link href="/resume.pdf" download>
+            <Link href="/likhith_resume.pdf" download>
               <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" />
               Download CV
             </Link>

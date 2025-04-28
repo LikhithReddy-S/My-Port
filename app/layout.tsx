@@ -8,7 +8,7 @@ import SocialLinks from "@/components/social-links"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Student Portfolio",
+  title: "My Port",
   description: "A portfolio website showcasing student projects and resume",
     generator: 'v0.dev'
 }

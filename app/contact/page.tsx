@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium text-sm md:text-base">Location</h3>
-                    <p className="text-xs sm:text-sm text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Pulivendula , Ap , India</p>
                   </div>
                 </motion.div>
 
@@ -113,7 +113,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium text-sm md:text-base">Phone</h3>
-                    <p className="text-xs sm:text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">+91 7981207876</p>
                   </div>
                 </motion.div>
 
@@ -128,7 +128,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium text-sm md:text-base">Email</h3>
-                    <p className="text-xs sm:text-sm text-muted-foreground">john.doe@example.com</p>
+                    <p className="text-xs sm:text-sm text-muted-foreground">slikhithreddy22@gmail.com</p>
                   </div>
                 </motion.div>
 
