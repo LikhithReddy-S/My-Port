@@ -11,7 +11,7 @@ export default function Resume() {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
+      institution: "Amrita University",
       period: "2023 - Present",
       description:
         "Focusing on software engineering, artificial intelligence, and Quantum Computing. Current GPA: 3.0/4.0",
