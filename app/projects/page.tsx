@@ -12,7 +12,7 @@ import { Github, ExternalLink } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
-      title: "E-Learning Platform",
+      title: "Gamifying Habit Tracker",
       description: "The Gamifying Habit Tracker is a web application designed to make habit tracking more engaging and fun. By incorporating gamification elements like streaks, rewards, and progress tracking, it motivates users to build positive habits consistently.",
       image: "/gamifying-habit-tracker.png?height=300&width=600",
       tags: ["Next.js", "TypeScript", "Tailwind CSS"],
