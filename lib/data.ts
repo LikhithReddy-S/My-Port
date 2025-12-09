@@ -1,19 +1,19 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'slikhithreddy22@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Likhith Reddy, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    oldPortfolio: 'https://likhith-reddy.vercel.app/',
     upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
+    { name: 'github', url: 'https://github.com/LikhithReddy-S' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/likhithreddys/' },
+    { name: 'instagram', url: 'https://www.instagram.com/likhith__22/' },
     { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
@@ -110,20 +110,23 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Electro EV',
-        slug: 'electro-ev',
-        liveUrl: 'https://electroev.co.uk/',
+        title: 'Gamifying Habit Tracker',
+        slug: 'gamifying-habit-tracker',
+        liveUrl: 'https://gamifiyinghabittracker.vercel.app/',
         year: 2025,
         description: `
-      A complete agency portfolio platform built for Electro EV to showcase their services, blog content, and product offerings. <br/> <br/>
+      The Gamifying Habit Tracker is a web application designed to make habit tracking more engaging and fun. By incorporating gamification elements like streaks, rewards, and progress tracking, it motivates users to build positive habits consistently. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
         <li>📱 Fully Responsive: Optimized for all device sizes</li>
         <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
+        <li>📅 Daily Quest System: Receive daily tasks and mark them as completed.</li>
+        <li>🔥 Streak Tracking: Maintain streaks for consistent habit tracking.</li>
+        <li>🏆 Rewards & Achievements: Earn points and unlock achievements.</li>
+        <li>📊 Progress Visualization: Track performance with analytics.</li>
+        <li>🛠 Customizable Tasks: Set and personalize habits based on your goals.</li>
+        <li>🛠 Todo list: You can add and delete as your wish.</li>
       </ul><br/>
       
       Technical Highlights:
@@ -138,24 +141,18 @@ export const PROJECTS: IProject[] = [
       Full-Stack Developer <br/>
       Owned the entire development lifecycle:
       <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
+        <li>🎨 Frontend: Built all UI components using Tailwind CSS</li>
         <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
         <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
       </ul>
       `,
         techStack: [
             'Next.js',
-            'Payload CMS',
             'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
             'React Hook Form',
             'Vercel',
         ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
+        thumbnail: '/projects/thumbnail/devLinks.jpg',
         longThumbnail: '/projects/long/mti-electronics.webp',
         images: [
             '/projects/images/mti-electronics-1.webp',
@@ -218,70 +215,70 @@ export const PROJECTS: IProject[] = [
         - Integrated GPT-4 for AI-driven feedback and insights.<br/>
         - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
     },
-    {
-        title: 'Real Estate',
-        slug: 'property-pro',
-        techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
-        ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2023,
-        description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
-    },
-    {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
-    },
-    {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
+    // {
+    //     title: 'Real Estate',
+    //     slug: 'property-pro',
+    //     techStack: [
+    //         'React.js',
+    //         'Redux',
+    //         'Tailwind CSS',
+    //         'React i18n',
+    //         'Framer Motion',
+    //     ],
+    //     thumbnail: '/projects/thumbnail/property-pro.jpg',
+    //     longThumbnail: '/projects/long/property-pro.jpg',
+    //     images: [
+    //         '/projects/images/property-pro-1.png',
+    //         '/projects/images/property-pro-2.png',
+    //         '/projects/images/property-pro-3.png',
+    //     ],
+    //     liveUrl: 'https://demo.propertypro.siphertech.com/',
+    //     year: 2023,
+    //     description:
+    //         'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
+    //     role: `As the frontend developer, I:<br/>
+    //     - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
+    //     - Integrated dynamic state management for efficient handling of property data.<br/>
+    //     - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
+    //     - Enhanced user interaction with animations and transitions using Framer Motion.`,
+    // },
+    // {
+    //     title: 'Consulting Finance',
+    //     slug: 'crenotive',
+    //     techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
+    //     thumbnail: '/projects/thumbnail/consulting-finance.jpg',
+    //     longThumbnail: '/projects/long/consulting-finance.jpg',
+    //     images: [
+    //         '/projects/images/consulting-finance-1.png',
+    //         '/projects/images/consulting-finance-2.png',
+    //         '/projects/images/consulting-finance-3.png',
+    //     ],
+    //     sourceCode: 'https://github.com/Tajmirul/crenotive',
+    //     liveUrl: 'https://crenotive.netlify.app/',
+    //     year: 2023,
+    //     description:
+    //         'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
+    //     role: ``,
+    // },
+    // {
+    //     title: 'devLinks',
+    //     slug: 'devLinks',
+    //     techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
+    //     thumbnail: '/projects/thumbnail/devLinks.jpg',
+    //     longThumbnail: '/projects/long/devLinks.jpg',
+    //     images: [
+    //         '/projects/images/devLinks-1.png',
+    //         '/projects/images/devLinks-2.png',
+    //         '/projects/images/devLinks-3.png',
+    //     ],
+    //     sourceCode: 'https://github.com/Tajmirul/devsLink',
+    //     liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
+    //     year: 2023,
+    //     description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
 
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
-    },
+    //         I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
+    //     role: ``,
+    // },
 ];
 
 export const MY_EXPERIENCE = [
