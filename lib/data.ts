@@ -44,18 +44,6 @@ export const MY_STACK = {
             icon: '/logo/tailwind.png',
         },
         {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'Sass',
-            icon: '/logo/sass.png',
-        },
-        {
             name: 'Bootstrap',
             icon: '/logo/bootstrap.svg',
         },
@@ -160,60 +148,47 @@ export const PROJECTS: IProject[] = [
         ],
     },
     {
-        title: 'Epikcart',
+        title: 'Friends Web App',
         slug: 'epikcart',
         techStack: [
             'React',
-            'Redux',
             'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
+            'CSS',
+            'Flask api',
             'Api Integration',
+            'SQLite'
         ],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/friends-web-app-1.png',
+            '/projects/images/friends-web-app-2.png',
+            '/projects/images/friends-web-app-3.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
+        liveUrl: 'https://react-and-python-friends-web-app.vercel.app/',
+        year: 2024,
+        description: `This is a web application built using React for the frontend and Python  Flask for the backend. The application allows users to manage and interact with their friends list.`,
+        role: `Fullstack developer`,
     },
     {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
+        title: 'Game Hub',
+        slug: 'game-hub',
         techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
+            'React js',
+            'css',
+            'game api'
         ],
         thumbnail: '/projects/thumbnail/resume-roaster.jpg',
         longThumbnail: '/projects/long/resume-roaster.jpg',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/game-hub-1.png',
+            '/projects/images/game-hub-2.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
+        liveUrl: 'https://game-hub-gray-zeta.vercel.app/',
         year: 2023,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            '',
+        role: ``,
     },
     // {
     //     title: 'Real Estate',
