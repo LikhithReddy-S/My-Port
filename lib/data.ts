@@ -61,6 +61,10 @@ export const MY_STACK = {
             name: 'Express.js',
             icon: '/logo/express.png',
         },
+        {
+            name: 'Fast API',
+            icon: '/logo/fastapi.png',
+        },
     ],
     database: [
         {
@@ -75,10 +79,6 @@ export const MY_STACK = {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
-        {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
-        },
     ],
     tools: [
         {
@@ -90,8 +90,16 @@ export const MY_STACK = {
             icon: '/logo/docker.svg',
         },
         {
-            name: 'AWS',
-            icon: '/logo/aws.png',
+            name: 'Linux',
+            icon: '/logo/linux.png',
+        },
+        {
+            name: 'VS Code',
+            icon: '/logo/vscode.png',
+        },
+        {
+            name: 'Firebase',
+            icon: '/logo/firebase.png',
         },
     ],
 };
@@ -116,14 +124,6 @@ export const PROJECTS: IProject[] = [
         <li>🛠 Customizable Tasks: Set and personalize habits based on your goals.</li>
         <li>🛠 Todo list: You can add and delete as your wish.</li>
       </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
       `,
         role: `
       Full-Stack Developer <br/>
@@ -258,23 +258,23 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'Anokha Co-ordinator',
+        company: 'Amrita School of Engineering',
+        duration: 'Nov 2024',
     },
-    {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
-    },
-    {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
-    },
-    {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
-    },
+    // {
+    //     title: 'Frontend Developer',
+    //     company: 'Epikcoders',
+    //     duration: 'Oct 2023 - Nov 2024',
+    // },
+    // {
+    //     title: 'Frontend Engineer',
+    //     company: 'Anchorblock Technology',
+    //     duration: 'Oct 2022 - Sep 2023',
+    // },
+    // {
+    //     title: 'Frontend Developer (Part-time)',
+    //     company: 'Branex IT',
+    //     duration: 'Jan 2022 - Oct 2022',
+    // },
 ];
