@@ -55,9 +55,9 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in learning by building diving
-                    into new technologies, experimenting with ideas, 
-                    and constantly challenging myself to grow as a developer.
+                    I believe in learning by building diving into new
+                    technologies, experimenting with ideas, and constantly
+                    challenging myself to grow as a developer.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
@@ -74,10 +74,11 @@ const AboutMe = () => {
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
                                 I&apos;m a student deeply passionate about
-                                software development and artificial intelligence.
+                                software development and artificial
+                                intelligence.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                I'm driven by the ambition to one day create
+                                {`I'm driven by the ambition to one day create
                                 something groundbreaking in the AI world.
                                 Whether I'm exploring new programming languages, 
                                 understanding machine learning concepts, or 
@@ -88,7 +89,7 @@ const AboutMe = () => {
                                 My goal is to evolve into a developer who 
                                 not only understands AI, but builds solutions
                                 that push boundaries and contribute to the 
-                                future of technology.
+                                future of technology.`}
                             </p>
                         </div>
                     </div>
