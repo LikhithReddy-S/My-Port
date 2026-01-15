@@ -11,7 +11,7 @@ export const GENERAL_INFO = {
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/LikhithReddy-S' },
+    { name: 'github', url: 'https://github.com/slikhithreddy22' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/likhithreddys/' },
     { name: 'instagram', url: 'https://www.instagram.com/likhith__22/' },
     { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
